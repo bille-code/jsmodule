@@ -19,7 +19,9 @@ const climate_day = prompt ('¿ Como está el clima el día de hoy')
 
 } */
 
-switch(climate_day) {
+//switch
+
+/* switch(climate_day) {
     case 'lluvioso' :
     console.log('El día esta lluvioso y hay muchos charcos')
     break
@@ -36,7 +38,7 @@ switch(climate_day) {
         const other_climate = prompt('Describe el clima en tu localidad ')
         console.log (other_climate)
 
+} */
 
-
-
-}
+// if  ternario
+// expression ? para true : para false
