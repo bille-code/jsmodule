@@ -5,7 +5,7 @@
 
 const NUMBER_ONE = prompt('ingresa un numero del 1 al 100')
     
-    if(NUMBER_ONE % 2 === 0 || NUMBER_ONE % 11 === 0){
+    if(NUMBER_ONE % 2 === 0 && NUMBER_ONE % 11 === 0){
         console.log('Es divisible por 2, 11');
     } else{
         console.log('No es divisible por 2,11');

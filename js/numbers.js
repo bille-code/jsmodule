@@ -32,6 +32,8 @@ const DOMINGO = 7
 
     }else if(  NUMBER == DOMINGO){
         console.log('El día es DOMINGO')
+    }else{
+        console.log ('Ingresa un numero valido')
     }
     
 
