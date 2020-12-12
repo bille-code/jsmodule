@@ -67,19 +67,56 @@ function reverse (addstring){
         } else{
             console.log(`No es divisible por 2,11`);
         }
-    }
-        
+    } return
 
-    //number par impar
-    function numberPar (num){
-        const NUMBER = num
-        if(NUMBER % 2 === 0 ){
-        console.log('El numero es par')
-    }else{
-        console.log ('El numero es impar')
-    }
+// function Month
+function month(num_mes){
 
-    }
+    const NUMBER = num_mes /* prompt('Introduce un numero entre 1 y 7') */
+    
+    const LUNES = 1
+    const MARTES = 2
+    const MIERCOLES = 3
+    const JUEVES = 4
+    const VIERNES = 5
+    const SABADO = 6
+    const DOMINGO = 7
+    
+        if(NUMBER == LUNES){
+            console.log ('El día es LUNES')
+        } else if(  NUMBER == MARTES){
+            console.log('El día es MARTES')
+    
+        }else if(  NUMBER == MIERCOLES){
+            console.log('El día es MIERCOLES')
+    
+        }else if(  NUMBER == JUEVES){
+            console.log('El día es JUEVES')
+    
+        }else if(  NUMBER == VIERNES){
+            console.log('El día es VIERNES')
+    
+        }else if(  NUMBER == SABADO){
+            console.log('El día es SABADO')
+    
+        }else if(  NUMBER == DOMINGO){
+            console.log('El día es DOMINGO')
+        }else{
+            console.log ('Ingresa un numero valido')
+        }
+            
+    
+        //number par impar
+        function numberPar (num){
+            const NUMBER = num
+            if(NUMBER % 2 === 0 ){
+            console.log('El numero es par')
+        }else{
+            console.log ('El numero es impar')
+        }
+    
+        }
+}
 
     //school grades
     function schoolGradre(numone){
