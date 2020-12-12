@@ -61,8 +61,8 @@ function reverse (addstring){
 //función divisible entre 2 y 11
 
     function divide (numOne){
-         /* const NUMBER_ONE = numOne prompt('ingresa un numero del 1 al 100') */  
-        if(numOne % 2 === 0 && numOne % 11 === 0){
+         const NUMBER = numOne /* prompt('ingresa un numero del 1 al 100') */
+        if(NUMBER% 2 === 0 || NUMBER % 11 === 0){
             console.log(`Es divisible por 2, 11`);
         } else{
             console.log(`No es divisible por 2,11`);
@@ -83,7 +83,7 @@ function reverse (addstring){
 
     //school grades
     function schoolGradre(numone){
-        const school_grades = schoolGradre/* prompt('Ingresa tu calificación ') */
+        const school_grades = numone /* prompt('Ingresa tu calificación ') */
 
 const A = 90
 const B = 80
