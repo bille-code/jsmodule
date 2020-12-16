@@ -8,15 +8,13 @@ const myArray = [1,4,7]
 
 
     const myArray = [1,4,7]
+    let newArray = []
     myArray.forEach(currentElement => {
-
-        /* for (let i=0; i < myArray.length; i++){  */
-           /* const tablaName = myArray [currentElement] */
-            for (let j=1; j<=10; j++){ 
-            console.log(`${currentElement} X ${j} = ${currentElement* j}`)
-
-            } 
+    newArray.push(currentElement * 2)
+ return (newArray)
+    
     })
+    
     
 
     //function 
@@ -51,12 +49,4 @@ const arrayToDouble = [1 ,2,3]
 const resultDoubleValues = doubleValues(arrayToDouble)
 console.log(resultDoubleValues)
 
-    /* rrayNum.forEach(function(customElement ) => {
-            const newarray = arrayNum[i]
-            console.log(`${customElement}* 2` )
-            newarray = customElement
-            arrayNum.push = newarray
-        
-
-    }
-        ) */
+    
