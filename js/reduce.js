@@ -30,7 +30,7 @@ let koder = {
         generacion: 'Python',
         actionOne: 'tomar clase',
         actionTwo: 'realizar ejercicios',
-        actionthree: 'desertar',
+        actionthree: 'desertar,
 
 
 
